@@ -11,14 +11,6 @@
 // input is 9
 // 9,28,14,7,22,11,34,17,52,26,13,40,20,10,5,16,8,4,2,1
 
-// Problem #2
-// Same as above.
-// Input two numbers.
-// Print which number has less steps to reach 1.
-
-// #Problem #3
-// Get a input. Create a sequence of numbers from that input using the above alg.
-// Find the largest number in the sequence. 
 
 const readline= require('readline');
 const rl = readline.createInterface({
@@ -39,6 +31,7 @@ rl.question("Enter the number: ", (num)=>{
 
         sequence.push(num);
     }
-    console.log("Collatz Sequence: " +sequence.splice(','));
+    
+    console.log("Collatz Sequence: " +sequence.join(','));
     rl.close();
 });
