@@ -13,7 +13,7 @@ function toGetRow(rows){
 
         //Empty Spaces
         for(let j=rows; i<=j; j--){
-            pattern +=' ';
+            pattern +='x';
         }
 
         //Decrement numbers
